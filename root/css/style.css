@@ -207,11 +207,12 @@ img .logo {
 
 .hong-kong-txt {
     display: flex;
-    color: black;
+    color: white;
     position: absolute; 
     justify-content: center;
-    width: 20%;
-    font-size: 3rem;
+    align-items: center;
+    font-size: 7rem;
+    background: none;
 }
 
 /* SELECTION PAGE */
