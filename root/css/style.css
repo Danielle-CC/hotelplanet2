@@ -63,6 +63,26 @@ body {
         box-shadow: 10px 10px 31px -12px rgba(0,0,0,0.53);
     }
 
+    .hero-btn {
+
+        width: 87%;
+        padding: 1rem;
+        border-radius: 10px;
+        border: solid #85B6FF 1px;
+        -webkit-box-shadow: 10px 10px 31px -12px rgba(0,0,0,0.53);
+        -moz-box-shadow: 10px 10px 31px -12px rgba(0,0,0,0.53);
+        box-shadow: 10px 10px 31px -12px rgba(0,0,0,0.53);
+        background-color: #5565FF;
+        color: white;
+        border-radius: 10px;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    .hero-btn :hover a:hover {
+        background-color: #F5D340;
+    }
+
 
 
 header {
@@ -76,8 +96,9 @@ header {
     z-index: 999;
 }
 
-.logo {
-    width: 200%;
+.logo-text {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: block;
 }
 
 img .logo {
@@ -110,19 +131,7 @@ img .logo {
     font-weight: 400;
 }
 
-.hero-btn {
-    position: absolute;
-    bottom: 30px;
-    left: 2rem;
-    right: 2rem;
-    height: 50px;
-    background-color: #5565FF;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    font-size: 1.2rem;
-    font-weight: bold;
-}
+
 
 .category-container {
     display: flex;
