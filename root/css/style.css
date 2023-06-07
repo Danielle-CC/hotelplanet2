@@ -1,0 +1,371 @@
+@font-face {
+    font-family: "true-lies";
+    src: url("../fonts/true_lies-webfont.woff") format("woff")
+}
+
+@font-face {
+    font-family: "inter";
+    src: url("../fonts/inter-variablefont_slntwght-webfont.woff") format("woff")
+}
+    
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    /* font-family: "true-lies"; */
+}
+
+body {
+    padding-bottom: 100px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.search {
+    width: 87%;
+    padding: 1rem;
+    border-radius: 10px;
+    border: solid #85B6FF 1px;
+    -webkit-box-shadow: 10px 10px 31px -12px rgba(0,0,0,0.53);
+    -moz-box-shadow: 10px 10px 31px -12px rgba(0,0,0,0.53);
+    box-shadow: 10px 10px 31px -12px rgba(0,0,0,0.53);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 999;
+}
+
+.logo {
+    width: 10%;
+}
+
+.logo img {
+    width: 100%;
+}
+
+/* HOME SECTION */
+
+/* #home {
+    display: none;
+} */
+
+.hero-container {
+    background-image: url("../img/teepee-hero.jpg");
+    background-size: cover;
+    color: white;
+    padding: 2rem;
+    height: 40vh;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.hero-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-tag {
+    font-weight: 400;
+}
+
+.hero-btn {
+    position: absolute;
+    bottom: 30px;
+    left: 2rem;
+    right: 2rem;
+    height: 50px;
+    background-color: #112F5C;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.category-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 100%;
+}
+
+.category-title {
+    margin-bottom: 0.5rem;
+}
+
+.category-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 45%;
+    padding: 1rem 0.5rem;
+    border: #112F5C solid 1px;
+    border-radius: 5px;
+    color: #112F5C;
+    font-size: 1.1rem;
+}
+
+.category-card img {
+    margin-right: 0.5rem;
+}
+
+/* SELECTION PAGE */
+
+#selection {
+    display: none;
+}
+
+.card {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.card-head {
+    margin-bottom: 1rem;
+}
+
+.card-head img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-head {
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+    color: #112F5C;
+}
+
+.item-info {
+    font-size: 0.9rem;
+    padding-bottom: 0.2rem;
+    color: #878787;
+}
+
+.item-price {
+    padding-top: 0.5rem;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #112F5C;
+}
+
+/* LOCATION SECTION */
+
+#location-1 {
+    display: none;
+    position: relative;
+}
+
+.location-img {
+    margin-bottom: 1rem;
+}
+
+.location-heading {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #112F5C;
+}
+
+.location-details {
+    margin-right: 2rem;
+    color: #878787;
+    text-decoration: underline;
+
+}
+
+.book-cta {
+    width: 100%;
+    padding: 1rem 0;
+    background-color: #112F5C;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.description {
+    line-height: 140%;
+    color: #222222;
+    font-size: 1.05rem;
+    margin-bottom: 0.5rem;
+}
+
+.show-more {
+    font-size: 1.2rem;
+    color: #85B6FF;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.back-btn {
+    position: fixed;
+    bottom: 100px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #85B6FF;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* FORM SECTION */
+
+#form {
+    display: none;
+}
+
+.form-heading {
+    color: #112F5C;
+    margin-bottom: 1rem;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.75rem;
+}
+
+.input-container label {
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #878787;
+}
+
+.input-container input, select {
+    padding: 0.75rem 0.5rem;
+    border: #ABBEDA solid 1px;
+    border-radius: 10px;
+    color: #112F5C;
+}
+
+.form-submit {
+    width: 100%;
+    border: none;
+    background-color: #112F5C;
+    color: white;
+    padding: 1rem 0;
+    border-radius: 10px;
+}
+
+/* CONFIRMATION SECTION */
+
+#confirm {
+    display: none;
+    position: relative;
+}
+
+.confirm-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.confirm-icon {
+    width: 200px;
+    margin-bottom: 1rem;
+}
+
+.confirm-title {
+    color: #112F5C;
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+}
+
+.confirm-title span{
+    color: #112F5C;
+    font-weight: 600;
+}
+
+.confirm-tag {
+    color: #878787;
+    margin-bottom: 2rem;
+    font-weight: 400;
+}
+
+.confirm-tag span {
+    color: #878787;
+    font-weight: 600;
+}
+
+.confirm-button {
+    width: 100%;
+    border: none;
+    background-color: #112F5C;
+    color: white;
+    padding: 1rem 0;
+    border-radius: 10px;
+    font-weight: 600;
+    position: relative;
+    z-index: 999;
+}
+
+#my-canvas {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+/* FOOTER NAVIGATION */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    height: 60px;
+    padding: 0 5rem;
+    background-color: white;
+    width: 100%;
+    -webkit-box-shadow: 0px -18px 31px -12px rgba(0,0,0,0.53);
+    -moz-box-shadow: 0px -18px 31px -12px rgba(0,0,0,0.53);
+    box-shadow: 0px -18px 31px -12px rgba(0,0,0,0.53);
+    border-top: solid #85B6FF 2px;
+    max-width: 700px;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #878787;
+    font-size: 0.8rem;
+}
+
+.nav-item img {
+    width: 25px;
+}
+
+.category-card span {
+    max-width: 10ch;
+}
