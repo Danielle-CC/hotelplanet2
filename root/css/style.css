@@ -26,6 +26,8 @@ body {
 .container {
     width: 90%;
     margin: 0 auto;
+    display: block;
+    justify-content: center;
 }
 
 .search {
@@ -39,8 +41,9 @@ body {
 }
 
 .search-buttons {
-    display: block;
+    display: inline-block;
     justify-content: center;
+    padding-bottom: 2rem;
 }
 
 
@@ -92,7 +95,6 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0;
-    position: sticky;
     top: 0;
     background: white;
     z-index: 999;
@@ -100,8 +102,10 @@ header {
 
 .logo-text {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    display: block;
+    display: flex;
+    justify-content: center;
     letter-spacing: 0.7rem;
+    padding: 1rem;
 }
 
 img .logo {
@@ -109,31 +113,6 @@ img .logo {
 }
 
 /* HOME SECTION */
-
-/* #home {
-    display: none;
-} */
-
-.hero-container {
-    background-image: url("../img/teepee-hero.jpg");
-    background-size: cover;
-    color: white;
-    padding: 2rem;
-    height: 40vh;
-    border-radius: 10px;
-    position: relative;
-    margin-bottom: 2rem;
-}
-
-.hero-title {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-}
-
-.hero-tag {
-    font-weight: 400;
-}
-
 
 
 .category-container {
