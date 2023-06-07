@@ -199,7 +199,7 @@ img .logo {
 .category-card img {
     margin-right: 0.5rem;
     display: block;
-    max-width: 100%;
+    max-width: 90%;
     text-align: center;
     border-radius: 25px;
     position: relative;
