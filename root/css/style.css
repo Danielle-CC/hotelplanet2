@@ -38,6 +38,33 @@ body {
     box-shadow: 10px 10px 31px -12px rgba(0,0,0,0.53);
 }
 
+.search-buttons {
+    display: block;
+}
+
+
+.dates {
+        width: 87%;
+        padding: 1rem;
+        border-radius: 10px;
+        border: solid #85B6FF 1px;
+        -webkit-box-shadow: 10px 10px 31px -12px rgba(0,0,0,0.53);
+        -moz-box-shadow: 10px 10px 31px -12px rgba(0,0,0,0.53);
+        box-shadow: 10px 10px 31px -12px rgba(0,0,0,0.53);
+    }
+
+    .rooms-guests {
+        width: 87%;
+        padding: 1rem;
+        border-radius: 10px;
+        border: solid #85B6FF 1px;
+        -webkit-box-shadow: 10px 10px 31px -12px rgba(0,0,0,0.53);
+        -moz-box-shadow: 10px 10px 31px -12px rgba(0,0,0,0.53);
+        box-shadow: 10px 10px 31px -12px rgba(0,0,0,0.53);
+    }
+
+
+
 header {
     display: flex;
     justify-content: space-between;
@@ -53,7 +80,7 @@ header {
     width: 10%;
 }
 
-.logo img {
+img .logo {
     width: 100%;
 }
 
