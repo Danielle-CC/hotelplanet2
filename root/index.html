@@ -4,10 +4,200 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Airtnp </title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/confetti-js@0.0.18/dist/index.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>The Heading</h1>
-    <p>We are a business</p>
+
+    <div class="container">
+        <header>
+            <div class="logo home">
+                <img src="img/logo.svg" alt="The Airtnp Logo">
+            </div>
+            <input class="search" type="text" placeholder="Search for your teepee...">
+        </header>
+        <main>
+
+            <!-- HOME SCREEN -->
+            <section id="home">
+                <div class="hero-container">
+                    <h1 class="hero-title">Airtnp</h1>
+                    <h2 class="hero-tag">Find the TeePee for you</h2>
+                    <button class="hero-btn">Search Teepees</button>
+                </div>
+                <div>
+                    <h3 class="category-title">Explore Categories</h3>
+                    <div class="category-container">
+                        <div class="category-card">
+                            <img src="img/logo.svg" alt="The Airtnp Logo">
+                            <span>Big Teepees</span>
+                        </div>
+                        <div class="category-card">
+                            <img src="img/logo.svg" alt="The Airtnp Logo">
+                            <span>Small Teepees</span>
+                        </div>
+                        <div class="category-card">
+                            <img src="img/logo.svg" alt="The Airtnp Logo">
+                            <span>Solo Teepees</span>
+                        </div>
+                        <div class="category-card">
+                            <img src="img/logo.svg" alt="The Airtnp Logo">
+                            <span>Family Teepees</span>
+                        </div>
+                        <div class="category-card">
+                            <img src="img/logo.svg" alt="The Airtnp Logo">
+                            <span>Pet Teepees</span>
+                        </div>
+                        <div class="category-card">
+                            <img src="img/logo.svg" alt="The Airtnp Logo">
+                            <span>Weird Teepees</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SELECTION SCREEN -->
+            <section id="selection">
+                <div class="card">
+                    <div class="card-head">
+                        <img src="https://picsum.photos/1000" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="item-head">Cool Teepee, UK</h3>
+                        <span class="item-info">Super Host</span>
+                        <span class="item-info">8-15 Feb</span>
+                        <span class="item-price">£459.56</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-head">
+                        <img src="https://picsum.photos/1000" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="item-head">Cool Teepee, UK</h3>
+                        <span class="item-info">Super Host</span>
+                        <span class="item-info">8-15 Feb</span>
+                        <span class="item-price">£459.56</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-head">
+                        <img src="https://picsum.photos/1000" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="item-head">Cool Teepee, UK</h3>
+                        <span class="item-info">Super Host</span>
+                        <span class="item-info">8-15 Feb</span>
+                        <span class="item-price">£459.56</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-head">
+                        <img src="https://picsum.photos/1000" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="item-head">Cool Teepee, UK</h3>
+                        <span class="item-info">Super Host</span>
+                        <span class="item-info">8-15 Feb</span>
+                        <span class="item-price">£459.56</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- LOCATION SCREEN -->
+
+            <section id="location-1">
+                <div class="card-head">
+                    <img class="location-img" src="https://picsum.photos/800/600" alt="">
+                    <h3 class="location-heading">Cool Teepee / 10-bed tent on Osea Island, Essex</h3>
+                    <div>
+                        <span class="location-details">1 review</span>
+                        <span class="location-details">Essex, Uk</span>
+                    </div>
+                </div>
+                <button class="book-cta book">Book Now</button>
+                <div class="content">
+                    <h3 class="location-heading">Description</h3>
+                    <p class="description">
+                        Welcome to Osea Island, a remote holiday resort situated in the estuary of the River Blackwater in Essex. Boasting an array of onsite facilities, the island is the perfect staycation destination for holidaymakers looking to enjoy a fun-filled family getaway. All properties are self-catered. Manor House offers 10 bedrooms, 6 bathrooms, 2 living rooms, a dining room & a kitchen. Sleeps up to 16 guests. Osea Island adopts strict social distancing & cleaning policies to ensure your safety ...
+                    </p>
+                    <h3 class="location-heading">What This Place Offers</h3>
+                    <p class="description">
+                        Welcome to Osea Island, a remote holiday resort situated in the estuary of the River Blackwater in Essex. Boasting an array of onsite facilities, the island is the perfect staycation destination for holidaymakers looking to enjoy a fun-filled family getaway. All properties are self-catered. Manor House offers 10 bedrooms, 6 bathrooms, 2 living rooms, a dining room & a kitchen. Sleeps up to 16 guests. Osea Island adopts strict social distancing & cleaning policies to ensure your safety ...
+                    </p>
+                    <span class="show-more">Show more</span>
+
+                    <div class="back-btn">
+                        <img src="img/back-arrow.svg" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!-- FORM SCREEN -->
+            <section id="form">
+                <div>
+                    <h1 class="form-heading">Your details</h1>
+                    <form action="">
+                        <div class="input-container">
+                            <label for="fname">First name</label>
+                            <input id="fname" name="email" type="text">
+                        </div>
+                        <div class="input-container">
+                            <label for="lname">Last name</label>
+                            <input id="lname" name="email" type="text">
+                        </div>
+                        <div class="input-container">
+                            <label for="email">Email address</label>
+                            <input id="email" name="email" type="email">
+                        </div>
+                        <div class="input-container">
+                            <label for="country">Country</label>
+                            <select name="country" id="country">
+                                <option value="Scotland">Scotland</option>
+                                <option value="England">England</option>
+                                <option value="Wales">Wales</option>
+                                <option value="Ireland">Ireland</option>
+                              </select>
+                        </div>
+                        <button class="form-submit">Submit Booking</button>
+                    </form>
+                </div>
+            </section>
+
+            <!-- CONFIRMATION SCREEN -->
+            <section id="confirm">
+                <div class="confirm-container">
+                    <img class="confirm-icon" src="img/check.svg" alt="">
+                    <h1 class="confirm-title">You're going to <span>TeePee Town</span></h1>
+                    <h3 class="confirm-tag">Booking Reference: <span>#T2548967</span></h3>
+                    <button class="confirm-button home">Return home</button>
+                </div>
+                <canvas id="my-canvas" aspect-ratio="auto"></canvas>
+            </section>
+
+        </main>
+    </div>
+
+    <nav>
+        <div class="nav-item home">
+            <img src="img/logo.svg" alt="">
+            <span>Home</span>
+        </div>
+        <div class="nav-item select">
+            <img src="img/search.svg" alt="">
+            <span>Search</span>
+        </div>
+        <div class="nav-item">
+            <img src="img/info.svg" alt="">
+            <span>About</span>
+        </div>
+    </nav>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
