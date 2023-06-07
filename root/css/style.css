@@ -40,6 +40,7 @@ body {
 
 .search-buttons {
     display: block;
+    justify-content: center;
 }
 
 
@@ -79,8 +80,9 @@ body {
         font-weight: bold;
     }
 
-    .hero-btn :hover a:hover {
+    .hero-btn:hover {
         background-color: #F5D340;
+        color: black;
     }
 
 
