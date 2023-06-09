@@ -43,6 +43,7 @@ body {
     color: black;
 }
 
+
 .search-buttons {
     display: inline-block;
     justify-content: center;
@@ -224,6 +225,7 @@ img .logo {
     background: none;
 }
 
+
 /*SIGN IN PAGE*/
 /* Bordered form */
 form {
@@ -231,7 +233,7 @@ form {
   }
   
   /* Full-width inputs */
-  input[type=text], input[type=password] {
+  .form-container {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -276,7 +278,7 @@ form {
   }
   
   /* Add padding to containers */
-  .container {
+  .container2 {
     padding: 16px;
   }
   
@@ -286,17 +288,6 @@ form {
     padding-top: 16px;
   }
   
-  /* Change styles for span and cancel button on extra small screens */
-  @media screen and (max-width: 300px) {
-    span.psw {
-      display: block;
-      float: none;
-    }
-    .cancelbtn {
-      width: 100%;
-    }
-  }
-
 
 
   /*CREATE ACCOUNT */
@@ -351,7 +342,7 @@ button:hover {
 }
 
 /* Add padding to container elements */
-.container {
+.container2 {
   padding: 16px;
 }
 
@@ -360,14 +351,25 @@ button:hover {
   content: "";
   clear: both;
   display: table;
+
 }
 
-/* Change styles for cancel button and signup button on extra small screens */
-@media screen and (max-width: 300px) {
-  .cancelbtn, .signupbtn {
-    width: 100%;
-  }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* SELECTION PAGE */
 
@@ -576,13 +578,6 @@ button:hover {
     bottom: 0;
     width: 100%;
 }
-
-
-
-
-/*SIGN IN SECTION */
-
-
 
 
 
