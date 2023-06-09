@@ -459,12 +459,13 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #878787;
+    color: #131313;
     font-size: 0.8rem;
 }
 
 .nav-item img {
     width: 25px;
+    background-color: white;
 }
 
 .category-card span {
