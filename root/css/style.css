@@ -95,6 +95,13 @@ body {
         color: black;
     }
 
+
+    .or {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
     .sign-in-cont {
         width: 90%;
         margin: 0 auto;
@@ -184,6 +191,8 @@ img .logo {
 
 .category-title {
     margin-bottom: 0.5rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
 }
 
 .category-card {
