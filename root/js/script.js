@@ -20,6 +20,7 @@ $(document).ready(function(){
     $(".hero-btn").click(function(){
       $("#selection").slideDown();
       $("#home").slideUp();
+      $('#sign-in').hide();
     });
 
     // Hide specific location and show booking form when "book now" button clicked
