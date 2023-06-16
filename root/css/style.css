@@ -64,7 +64,7 @@ body {
     }
 
     .rooms-guests {
-        width: 87%;
+        width: 100%;
         padding: 1rem;
         border-radius: 10px;
         border: solid #85B6FF 1px;
@@ -76,7 +76,7 @@ body {
 
     .hero-btn {
 
-        width: 87%;
+        width: 100%;
         padding: 1rem;
         border-radius: 10px;
         border: solid #85B6FF 1px;
@@ -113,7 +113,7 @@ body {
 
     .sign-in-btn {
 
-        width: 87%;
+        width: 100%;
         padding: 1rem;
         border-radius: 10px;
         border: solid #85B6FF 1px;
