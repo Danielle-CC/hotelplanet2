@@ -136,6 +136,21 @@ body {
         color: black;
     }
 
+    .login-btn1 .cancel-btn1 {
+        padding: 1rem;
+        border-radius: 10px;
+        border: solid #85B6FF 1px;
+        -webkit-box-shadow: 10px 10px 31px -12px rgba(0,0,0,0.53);
+        -moz-box-shadow: 10px 10px 31px -12px rgba(0,0,0,0.53);
+        box-shadow: 10px 10px 31px -12px rgba(0,0,0,0.53);
+        background-color: #5565FF;
+        color: black;
+        border-radius: 10px;
+        font-size: 1.2rem;
+        font-weight: bold;
+
+    }
+
 
     .create-acc-btn {
         width: 87%;
